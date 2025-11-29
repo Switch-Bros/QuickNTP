@@ -151,6 +151,7 @@ public:
             if (ini_openread(loc, &fp)) {
                 iniFile = loc;
                 ini_close(&fp);
+                break;
             }
         }
 
